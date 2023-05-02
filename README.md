@@ -47,8 +47,7 @@
 ### Key Features <a name="key-features"></a>
 
 - **[Use React to create a calculator]**
-- **[Use SPA to create different sections of the app]**
-- **[Use css to modify the appearance of the list]**
+- **[Build the UI design of the calculator]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

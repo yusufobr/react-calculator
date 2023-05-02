@@ -1,0 +1,18 @@
+td {
+  text-align: center;
+  width: 25%;
+  border-bottom: 2px solid #d1d1d1;
+  border-right: 2px solid #d1d1d1;
+}
+
+td:hover {
+  background-color: #00000008;
+}
+
+input[type="text"] {
+  height: 50px;
+}
+
+.operator {
+  background-color: #f5913e;
+}

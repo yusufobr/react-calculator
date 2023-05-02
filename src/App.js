@@ -1,10 +1,11 @@
 import './App.css';
+import Calculator from './components/Calculator';
 
 function App() {
   return (
-    <>
-      <h2 className="App-logo App">Hello world</h2>
-    </>
+    <div>
+      <Calculator />
+    </div>
   );
 }
 

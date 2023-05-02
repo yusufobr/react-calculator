@@ -1,8 +1,8 @@
 td {
   text-align: center;
-  padding-bottom: 2px;
-  padding-right: 2px;
   width: 25%;
+  border-bottom: 2px solid #d1d1d1;
+  border-right: 2px solid #d1d1d1;
 }
 
 td:hover {
@@ -14,5 +14,5 @@ input[type="text"] {
 }
 
 .operator {
-  background-color: rgb(255, 146, 82);
+  background-color: #f5913e;
 }

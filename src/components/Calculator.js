@@ -3,12 +3,12 @@ import './Calculator.css';
 
 export default function Calculator() {
   return (
-    <div className="text-[#333] p-12">
-      <table className="h-[300px] w-[300px] mx-auto bg-[#eeeeee]">
+    <div className="text-[#333] text-sm font-bold p-12">
+      <table className="h-[300px] w-[350px] mx-auto bg-[#E0E0E0]">
         <thead>
           <tr>
             <td colSpan="4">
-              <input type="text" value="0" className="w-full text-right text-white bg-[#cccccc]" />
+              <input type="text" value="0" className="w-full pr-1 text-right text-xl font-normal text-white bg-[#858693]" />
             </td>
           </tr>
         </thead>

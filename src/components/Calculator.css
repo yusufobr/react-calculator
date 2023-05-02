@@ -1,0 +1,18 @@
+td {
+  text-align: center;
+  padding-bottom: 2px;
+  padding-right: 2px;
+  width: 25%;
+}
+
+td:hover {
+  background-color: #00000008;
+}
+
+input[type="text"] {
+  height: 50px;
+}
+
+.operator {
+  background-color: rgb(255, 146, 82);
+}

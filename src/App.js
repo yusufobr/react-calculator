@@ -1,10 +1,11 @@
 import './App.css';
+import Calculator from './components/Calculator';
 
 function App() {
   return (
-    <>
-      <h2 className="App-logo App">Hello world</h2>
-    </>
+    <div className="container mx-auto bg-[#00000010] h-screen">
+      <Calculator />
+    </div>
   );
 }
 

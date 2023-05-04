@@ -26,7 +26,7 @@ export default function Calculator() {
         <thead>
           <tr>
             <td colSpan="4">
-              <input type="text" onChange={handleChange} value={theState.total || theState.next || 0} className="w-full pr-1 text-right text-xl font-normal text-white bg-[#858693]" />
+              <input type="text" onChange={handleChange} value={theState.next || theState.total || 0} className="w-full pr-1 text-right text-xl font-normal text-white bg-[#858693]" />
             </td>
           </tr>
         </thead>

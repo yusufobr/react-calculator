@@ -34,6 +34,7 @@
 
 - React
 - Linters
+- Tailwindcss
 
 <details>
   <summary>Client</summary>
@@ -48,6 +49,7 @@
 
 - **[Use React to create a calculator]**
 - **[Build the UI design of the calculator]**
+- **[Build Api Quote Component]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

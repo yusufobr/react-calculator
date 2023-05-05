@@ -21,7 +21,7 @@ export default function Calculator() {
   };
 
   return (
-    <div className="text-[#333] text-sm font-bold p-12">
+    <div className="text-[#333] text-sm font-bold my-8">
       <table className="h-[300px] w-[350px] mx-auto bg-[#E0E0E0]">
         <thead>
           <tr>

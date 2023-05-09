@@ -21,11 +21,10 @@ export default function Calculator() {
   };
 
   return (
-    <>
-      <h2 className="text-3xl font-bold mx-auto text-center mt-12">Calculator :</h2>
-
-      <div className="text-[#333] text-sm font-bold my-8">
-        <table className="h-[300px] w-[350px] mx-auto bg-[#E0E0E0]">
+    <div className="container mx-auto mt-16 gap-2 flex justify-between rounded-lg py-8 px-4 bg-[#ffffff80] drop-shadow-lg">
+      <h2 className="text-xl font-semibold capitalize">let&apos;s do some math!</h2>
+      <div className="text-[#333] text-sm font-bold ">
+        <table className="h-[400px] w-[450px] mx-auto bg-[#E0E0E0] drop-shadow-lg">
           <thead>
             <tr>
               <td colSpan="4">
@@ -104,6 +103,6 @@ export default function Calculator() {
           </tbody>
         </table>
       </div>
-    </>
+    </div>
   );
 }

@@ -23,16 +23,16 @@ export default function Quote() {
   }, []);
 
   return (
-    <>
-      <h2 className="text-3xl font-bold mx-auto text-center mt-12">Quote of the day :</h2>
-      <div className="text-center mx-auto mt-4 w-[350px]">
+    <div className="container mx-auto mt-16  rounded-lg py-8 px-4 bg-[#ffffff80] drop-shadow-lg">
+      <h2 className="text-xl font-semibold capitalize mx-auto">Quote of the day :</h2>
+      <div className="flex flex-col ml-4 mt-4 gap-2 mx-auto">
         <span className="err">{error ? `${error}` : ''}</span>
-        <q className="text-xl font-semibold italic">
+        <q className="text-2xl font-semibold italic">
           {loading ? 'loading..' : quote.quote}
           {' '}
         </q>
-        <div className="text-gray-400">{loading ? '' : quote.author}</div>
+        <div className="text-gray-700">{loading ? '' : quote.author}</div>
       </div>
-    </>
+    </div>
   );
 }

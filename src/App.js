@@ -1,15 +1,25 @@
+// eslint-disable-next-line
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Calculator from './components/Calculator';
 import Quote from './components/Quote';
+import Home from './components/Home';
+import Navbar from './components/Navbar';
+import Notfound from './components/Notfound';
 
 function App() {
   return (
-    <div>
-      <h2 className="text-3xl font-bold mx-auto text-center mt-12">Calculator :</h2>
-      <Calculator />
-      <h2 className="text-3xl font-bold mx-auto text-center mt-12">Quote of the day :</h2>
-      <Quote />
-    </div>
+    <>
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/calculator" element={<Calculator />} />
+          <Route path="/quote" element={<Quote />} />
+          <Route path="*" element={<Notfound />} />
+        </Routes>
+      </BrowserRouter>
+    </>
   );
 }
 

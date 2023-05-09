@@ -33,6 +33,7 @@
 ### Tech Stack <a name="tech-stack"></a>
 
 - React
+- Routers
 - Linters
 - Tailwindcss
 
@@ -50,6 +51,9 @@
 - **[Use React to create a calculator]**
 - **[Build the UI design of the calculator]**
 - **[Build Api Quote Component]**
+- **[Build Home Component]**
+- **[Build 404 not found Component]**
+- **[Add Styles to the Components]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

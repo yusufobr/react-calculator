@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { BASE_URL, API_KEY } from '../config/Apis';
 import './Quote.css';
 
 export default function Quote() {
@@ -6,11 +7,8 @@ export default function Quote() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  const url = 'https://api.api-ninjas.com/v1/quotes?category=business';
-  const API_KEY = 'x+QeVi/NIQCuHt5PoMxkQw==Efb93a67XUWRzdsN';
-
   const fetchQuote = async () => {
-    const res = await fetch(url, { headers: { 'X-Api-Key': API_KEY } });
+    const res = await fetch(BASE_URL, { headers: { 'X-Api-Key': API_KEY } });
     const data = await res.json();
     return data;
   };
@@ -18,23 +16,23 @@ export default function Quote() {
   useEffect(() => {
     fetchQuote()
       .then((data) => {
-        setQuote((data[0]));
+        setQuote(data[0]);
         setLoading(false);
       })
       .catch((e) => setError(e));
   }, []);
 
   return (
-    <div className="text-center mx-auto mt-4 w-[350px]">
-      <span className="err">{error ? `${error}` : ''}</span>
-      <q className="text-xl font-semibold italic">
-        {loading ? 'loading..' : quote.quote}
-        {' '}
-        {' '}
-      </q>
-      <div className="text-gray-400">
-        {loading ? '' : quote.author}
+    <>
+      <h2 className="text-3xl font-bold mx-auto text-center mt-12">Quote of the day :</h2>
+      <div className="text-center mx-auto mt-4 w-[350px]">
+        <span className="err">{error ? `${error}` : ''}</span>
+        <q className="text-xl font-semibold italic">
+          {loading ? 'loading..' : quote.quote}
+          {' '}
+        </q>
+        <div className="text-gray-400">{loading ? '' : quote.author}</div>
       </div>
-    </div>
+    </>
   );
 }

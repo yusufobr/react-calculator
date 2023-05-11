@@ -27,7 +27,7 @@ export default function Quote() {
       <h2 className="text-xl font-semibold capitalize mx-auto">Quote of the day :</h2>
       <div className="flex flex-col ml-4 mt-4 gap-2 mx-auto">
         <span className="err">{error ? `${error}` : ''}</span>
-        <q className="text-2xl font-semibold italic">
+        <q data-testid="the-quote" className="text-2xl font-semibold italic">
           {loading ? 'loading..' : quote.quote}
           {' '}
         </q>

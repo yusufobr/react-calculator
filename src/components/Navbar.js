@@ -10,8 +10,8 @@ export default function Navbar() {
       </div>
       <nav className="flex gap-1 capitalize text-gray-600 font-semibold text-lg">
         <NavLink to="/">Home</NavLink>
-        <NavLink to="/calculator">calculator</NavLink>
-        <NavLink to="/quote">quote</NavLink>
+        <NavLink to="/calculator">Calculator</NavLink>
+        <NavLink to="/quote">Quote</NavLink>
       </nav>
     </div>
   );

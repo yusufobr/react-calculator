@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`calculate appends a number to "next" when an operation is set 1`] = `
+Object {
+  "next": "52",
+  "operation": "+",
+  "total": null,
+}
+`;
+
+exports[`calculate performs the operation when "next" and an operation are set 1`] = `
+Object {
+  "next": null,
+  "operation": null,
+  "total": "50",
+}
+`;
+
+exports[`calculate returns an empty object when buttonName is "AC" 1`] = `
+Object {
+  "next": null,
+  "operation": null,
+  "total": null,
+}
+`;
+
+exports[`calculate updates "next" with a number when no operation is set 1`] = `
+Object {
+  "next": "52",
+  "total": null,
+}
+`;

@@ -30,11 +30,11 @@ describe('divide', () => {
 });
 
 describe('modulo', () => {
- test('should find modulo of two positive numbers correctly', () => {
-  expect(operate(10, 3, '%')).toMatchSnapshot();
-  expect(operate(15, 7, '%')).toMatchSnapshot();
-  expect(operate(5, 0, '÷')).toEqual("Can't divide by 0.");
-});
+  test('should find modulo of two positive numbers correctly', () => {
+    expect(operate(10, 3, '%')).toMatchSnapshot();
+    expect(operate(15, 7, '%')).toMatchSnapshot();
+    expect(operate(5, 0, '÷')).toEqual("Can't divide by 0.");
+  });
 });
 
 describe('unknown operation', () => {

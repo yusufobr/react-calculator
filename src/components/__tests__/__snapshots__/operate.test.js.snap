@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`add adds two numbers correctly 1`] = `"4"`;
+
+exports[`add adds two numbers correctly 2`] = `"10"`;
+
+exports[`divide divide two numbers correctly 1`] = `"1"`;
+
+exports[`divide divide two numbers correctly 2`] = `"2"`;
+
+exports[`divide divide two numbers correctly 3`] = `"Can't divide by 0."`;
+
+exports[`modulo should find modulo of two positive numbers correctly 1`] = `"1"`;
+
+exports[`modulo should find modulo of two positive numbers correctly 2`] = `"1"`;
+
+exports[`multiply multiply two numbers correctly 1`] = `"15"`;
+
+exports[`multiply multiply two numbers correctly 2`] = `"2"`;
+
+exports[`operate add should add two numbers correctly 1`] = `"4"`;
+
+exports[`operate add should add two numbers correctly 2`] = `"10"`;
+
+exports[`operate divide should divide two numbers correctly 1`] = `"1"`;
+
+exports[`operate divide should divide two numbers correctly 2`] = `"2"`;
+
+exports[`operate divide should divide two numbers correctly 3`] = `"Can't divide by 0."`;
+
+exports[`operate modulo should find modulo of two positive numbers correctly 1`] = `"1"`;
+
+exports[`operate modulo should find modulo of two positive numbers correctly 2`] = `"1"`;
+
+exports[`operate multiply should multiply two numbers correctly 1`] = `"15"`;
+
+exports[`operate multiply should multiply two numbers correctly 2`] = `"2"`;
+
+exports[`operate subtract should subtract two numbers correctly 1`] = `"2"`;
+
+exports[`operate subtract should subtract two numbers correctly 2`] = `"0"`;
+
+exports[`subtract subtracts two numbers correctly 1`] = `"2"`;
+
+exports[`subtract subtracts two numbers correctly 2`] = `"0"`;
